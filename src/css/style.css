@@ -1,11 +1,12 @@
-@media screen and (width >= 320px) {
-	#some-id {
-		color: red;
-	}
-}
 
-@media screen and (width >= 500px) {
-	#some-id {
-		color: red;
-	}
+body {
+	font-family: “Some custom", "Your backup", sans-serif;
 }
+.banner {
+background-image: url(https://raw.githubusercontent.com/yoyo0514/pictures/main/22851707326135_.pic.jpg)
+display: flex;
+position: relative;
+min-height: 400px;
+justify-content: center;
+align-items: center;
+
