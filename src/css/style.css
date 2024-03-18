@@ -1,12 +1,301 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Jacques+Francois&display=swap');
 body {
-	font-family: “Some custom", "Your backup", sans-serif;
-}
-.banner {
-background-image: url(https://raw.githubusercontent.com/yoyo0514/pictures/main/22851707326135_.pic.jpg)
-display: flex;
-position: relative;
-min-height: 400px;
-justify-content: center;
-align-items: center;
+	background-image: url("../images/kyoto.png");
+	font-family: "Abhaya Libre", serif;
+	background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+  }
+@media screen and (max-width: 767px) {
 
+    h1{
+	font-size: 150px;
+	text-align: center;
+    -webkit-text-stroke: 1px;
+	text-shadow: 0 0 5px rgba(18, 16, 16, 0.888);
+  }
+  p{
+	font-size:25px;
+	margin-top: -70px;
+  }
+
+
+  .first-paragraph {
+	font-size: 25px;
+	text-align: center;
+	right: 10px;
+	margin-top: -60px;
+  }
+  .Kinkaku-ji-image {
+	width: 250px; 
+	height: 350px; 
+	margin-top: -100px;
+  }
+  .Bamboo-Forest-image {
+	width: 250px;
+	height: 350px;
+	margin-left: 0px;
+	margin-top: -100px;
+  }
+  .Philosopher-path-image {
+	width: 250px;
+	height: 350px;
+	margin-left: 0px;
+	margin-top: -80px;
+  }
+  .Nijo-Castle-image{
+	width: 250px;
+	height: 350px;
+	margin-left: 0px;
+	margin-top: -60px;
+  }
+  .Nishiki-Market-image{
+	width: 250px;
+	height: 350px;
+	margin-left: 0px;
+	margin-top: -60px;
+  }
+  
+  h2{
+	font-size: 50px;
+	text-align: center;
+	-webkit-text-stroke: 1px;
+	text-shadow: 0 0 5px rgba(18, 16, 16, 0.888);
+	margin-top: 40px;
+  }
+  h3{
+    font-size: 32px;
+	margin-left: 280px;
+	margin-top: 150px;
+	position: relative;
+  }
+  a{
+	font-size: 25px;
+	margin-left: 0px;
+	margin-bottom: 10px;
+	display: block; 
+  }
+  h4{
+	font-size: 50px;
+	-webkit-text-stroke: 1px;
+	text-shadow: 0 0 5px rgba(18, 16, 16, 0.888);
+  }
+  ul{
+	font-size: 25px;
+  }
+
+.attraction {
+    margin-bottom: -50px;
+	margin-left: 0px;
+}
+
+.attraction-content {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.attraction-text {
+    flex-grow: 1;
+	margin-top: 80px;
+	margin-left: 40px;
+	font-size: 1.4rem;
+}
+.attractions-list {
+    list-style-type: none; 
+}
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	h1{
+		font-size: 170px;
+		text-align: center;
+		-webkit-text-stroke: 1px;
+		text-shadow: 0 0 5px rgba(18, 16, 16, 0.888);
+	  }
+	  p{
+		font-size:27px;
+		margin-top: -70px;
+	  }
+	
+	
+	  .first-paragraph {
+		font-size: 27px;
+		text-align: center;
+		right: 10px;
+		margin-top: -60px;
+	  }
+	  .Kinkaku-ji-image {
+		width: 425px; 
+		height: 350px; 
+		margin-top: -100px;
+	  }
+	  .Bamboo-Forest-image {
+		width: 425px;
+		height: 350px;
+		margin-left: 0px;
+		margin-top: -100px;
+	  }
+	  .Philosopher-path-image {
+		width: 425px;
+		height: 350px;
+		margin-left: 0px;
+		margin-top: -80px;
+	  }
+	  .Nijo-Castle-image{
+		width: 425px;
+		height: 350px;
+		margin-left: 0px;
+		margin-top: -60px;
+	  }
+	  .Nishiki-Market-image{
+		width: 425px;
+		height: 350px;
+		margin-left: 0px;
+		margin-top: -60px;
+	  }
+	  
+	  h2{
+		font-size: 60px;
+		text-align: center;
+		-webkit-text-stroke: 1px;
+		text-shadow: 0 0 5px rgba(18, 16, 16, 0.888);
+		margin-top: 40px;
+	  }
+	  h3{
+		font-size: 40px;
+		margin-left: 450px;
+		margin-top: 150px;
+		position: relative;
+	  }
+	  a{
+		font-size: 25px;
+		margin-left: 0px;
+		margin-bottom: 20px;
+		display: block;
+	  }
+	  h4{
+		font-size: 60px;
+		-webkit-text-stroke: 1px;
+		text-shadow: 0 0 5px rgba(18, 16, 16, 0.888);
+	  }
+	  ul{
+		font-size: 25px;
+	  }
+	
+	.attraction {
+		margin-bottom: -50px;
+		margin-left: 0px;
+	}
+	
+	.attraction-content {
+		display: flex;
+		justify-content: flex-start;
+	
+	}
+	
+	.attraction-text {
+		flex-grow: 1;
+		margin-top: 80px;
+		margin-left: 40px;
+		font-size: 1.4rem;
+	}
+	.attractions-list {
+		list-style-type: none; 
+	}
+	}
+	@media screen and (min-width: 1024px) {
+		
+		h1{
+			font-size: 200px;
+			text-align: center;
+			margin-top: 5px;
+			-webkit-text-stroke: 1px;
+			text-shadow: 0 0 5px rgba(18, 16, 16, 0.888);
+		  }
+		  p{
+			font-size:30px;
+			margin-top: -70px;
+		  }
+		  .first-paragraph {
+			font-size: 30px;
+			text-align: center;
+			right: 10px;
+			margin-top: -60px;
+		  }
+		  .Kinkaku-ji-image {
+			width: 535px; 
+			height: 400px; 
+			margin-top: -100px;
+		  }
+		  .Bamboo-Forest-image {
+			width: 535px;
+			height: 400px;
+			margin-left: 0px;
+			margin-top: -100px;
+		  }
+		  .Philosopher-path-image {
+			width: 535px;
+			height: 400px;
+			margin-left: 0px;
+			margin-top: -80px;
+		  }
+		  .Nijo-Castle-image{
+			width: 535px;
+			height: 400px;
+			margin-left: 0px;
+			margin-top: -60px;
+		  }
+		  .Nishiki-Market-image{
+			width: 535px;
+			height: 400px;
+			margin-left: 0px;
+			margin-top: -60px;
+		  }
+		  
+		  h2{
+			font-size: 70px;
+			text-align: center;
+			-webkit-text-stroke: 1px;
+			text-shadow: 0 0 5px rgba(18, 16, 16, 0.888);
+			margin-top: 40px;
+		  }
+		  h3{
+			font-size: 50px;
+			margin-left: 550px;
+			margin-top: 100px;
+		  }
+		  a{
+			font-size: 30px;
+			margin-left: 0px;
+			margin-bottom: 10px;
+			display: block; 
+		  }
+		  h4{
+			font-size: 70px;
+			-webkit-text-stroke: 1px;
+			text-shadow: 0 0 5px rgba(18, 16, 16, 0.888);
+		  }
+		  ul{
+			font-size: 30px;
+		  }
+		
+		.attraction {
+			margin-bottom: -50px;
+			margin-left: 0px;
+		}
+		
+		.attraction-content {
+			display: flex;
+			justify-content: flex-start;
+		}
+		.attraction-text {
+			flex-grow: 1;
+			margin-top: 100px;
+			margin-left: 40px;
+			font-size: 30px;
+		}
+		.attractions-list {
+			list-style-type: none; 
+		}
+		}
+	
